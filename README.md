@@ -1,6 +1,10 @@
 # Server-Side APIs: Weather Dashboard
 
-I will be using the OpenWeather API to retrieve weather data for cities.
+I will be using the OpenWeather API to retrieve weather data for cities. This information will include:
+- Search bar for finding a city
+- Current and future conditions for the city
+- Temperature, humidity, wind speed, and UV index
+- 5-day forecast
 
 ## User Story
 
@@ -14,7 +18,7 @@ SO THAT I can plan a trip accordingly
 
 ```
 GIVEN this weather dashboard functions correctly
-WHEN I search fora  city
+WHEN I search for a city
 THEN I am given current and future conditions for that city while it is added to the search history
 WHEN I look at the current weather conditions
 THEN I am presented the name, date, and icon representing the weather conditions, as well as the temperature, humidity, wind speed, and UV index
