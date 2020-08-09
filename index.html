@@ -11,11 +11,34 @@
 </head>
 
 <body>
+    <!-- header for weather dashboard -->
+    <header>
+        <div class="heading">
+            <div>
+                <h1>Weather Dashboard</h1>
+            </div>
+        </div>
+    </header>
+
+    <br>
     <!-- create a form to hold the search bar and submit button -->
-    <form>
-        <input id="citySearch" type="text">
-        <button type="submit" id="submitSearch">Submit!</button>
-    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Search for a city here:</h4>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="citySearch">
+                            </div>
+                            <button type="submit" id="submitSearch">Submit!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- place to show today's weather -->
     <div>
         <div class="weatherToday"></div>
