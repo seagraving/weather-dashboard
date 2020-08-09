@@ -27,3 +27,5 @@ THEN I am again presented with the current and future conditions for that city
 WHEN I open the weather dahboard again
 THEN I am presented the last searche dcity forecast
 ```
+## Preview
+![06-server-side-apis-homework-demo](https://user-images.githubusercontent.com/67175494/89723178-78ac7780-d9b8-11ea-871b-e24001750b00.png)
