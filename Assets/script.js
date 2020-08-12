@@ -68,22 +68,23 @@
 
                     var day = res.list[0];
                     makeCard(day);
+                    
 
 
                 });
-                //create a card for the elements
-                function makeCard(day) {
-                    var div = $("<div>")
-                    // var date = $("<p>")
-                    var temperature = $("<p>").text(day.main.temp)
-                    var wind = $("<p>").text(day.wind.speed)
-                    var humidity = $("<p>").text(day.main.humidity)
-                    div.append(temperature, wind, humidity)
-                    $("#forecast").append(div)
+                //create a card for the elements?
+                // function makeCard(day) {
+                //     var div = $("<div>")
+                //     // var date = $("<p>")
+                //     var temperature = $("<p>").text(day.main.temp)
+                //     var wind = $("<p>").text(day.wind.speed)
+                //     var humidity = $("<p>").text(day.main.humidity)
+                //     div.append(temperature, wind, humidity)
+                //     $("#forecast").append(div)
 
                     
 
                     
-                }
+                // }
             })
         )
